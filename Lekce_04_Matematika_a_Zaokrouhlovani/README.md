@@ -31,7 +31,9 @@ Pokud je číslo přesně uprostřed (např. 2.5 nebo 3.5), zaokrouhluje k nejbl
 ---
 
 **Bonus: formátovací specifikátor - zaokrouhlí číslo přímo při výpisu**
+
 Nula na konci (Zásadní rozdíl!):
+
   round(10.5, 2) vypíše: 10.5 (Python nepotřebné nuly maže).
   f"{10.5:.2f}" vypíše: 10.50 (Vypadá to jako peníze).
     
