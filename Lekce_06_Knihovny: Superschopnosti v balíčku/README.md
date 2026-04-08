@@ -35,6 +35,16 @@ Tato knihovna umožňuje programu generovat náhodná čísla. To je naprostý z
 
     Využití: Často se používá k výpočtu šance. Například 0.7 znamená 70% šanci na úspěch.
 
+Kombinace s podmínkou
+
+`import random`
+
+`sance = random.random()` # vygeneruje číslo 0-1
+
+`if sance < 0.1:` # 10% šance na kritický zásah
+
+- `print("KRITICKÝ ZÁSAH! 💥")`
+
 ### Knihovna time: Vládce časové osy
 
 Knihovna time neslouží jen k "uspání" programu, ale i k měření toho, jak dlouho vaše výpočty trvají.
@@ -48,7 +58,21 @@ Zastaví vykonávání programu na zadanou dobu. Nemusíte čekat jen celé seku
 
 2. **time.time()** – Čas v sekundách
 
-Tato funkce vrací obrovské číslo (počet sekund od roku 1970). Skvěle se hodí pro tvorbu stopek.
+Tato funkce vrací obrovské číslo (počet sekund od 1. ledna 1970). Vypadá to divně, ale je to skvělé pro stopky.
+
+Příklad: 
+
+`input("Až napočítáš do pěti, stiskni Enter!")`
+
+`konec = time.time()`
+
+`print(f"Trvalo ti to {konec - start} sekund.")`
+
+3. **time.ctime()** – Lidsky čitelný čas
+
+Pokud chcete, aby program vypsal, kolik je právě hodin v srozumitelném formátu.
+
+Příklad: `print(f"Aktuální čas je: {time.ctime()}")`
 
 ### Záchranná brzda: Co když se to rozbije?
 
