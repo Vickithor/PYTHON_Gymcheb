@@ -61,3 +61,35 @@ print(f"\n(Tvé skóre štěstí pro tento pokus bylo: {stesti}/100)")
 # ==========================================
 
 # SEM DOPLŇ SVŮJ KÓD:
+
+
+# ==========================================
+# ÚKOL Č. 4: Vytvoř "Digitální váhu", která náhodně vygeneruje hmotnost balíčku od 0.5 kg do 20.0 kg (pomocí uniform). Pokud váží víc než 15 kg, vypiš varování o těžkém nákladu.
+# ==========================================
+
+# SEM DOPLŇ SVŮJ KÓD:
+
+
+
+# ==========================================
+# ÚKOL Č. 5: Napište program, který bude simulovat jednoduchou hru o štěstí. Program si "vylosuje" náhodné celé číslo v rozmezí od 1 do 100 a uloží ho do proměnné stesti.
+
+#Vaším úkolem je:
+
+    # 1. Pomocí příkazu if zkontrolovat, zda je vylosované číslo větší než 50.
+
+    # 2. Pokud je podmínka splněna, vypište na obrazovku zprávu: "Dnes máš štěstí!".
+
+    # 3. Pokud podmínka splněna není (číslo je 50 nebo menší), použijte příkaz else a vypište: "Zkus to znovu.".
+# ==========================================
+
+# SEM DOPLŇ SVŮJ KÓD:
+
+
+
+# ==========================================
+# Bonusová výzva:
+# Zkuste program upravit tak, aby před vyhodnocením výsledku vypsal text "Házím kostkou..." a počkal 2 sekundy pomocí funkce time.sleep(), aby bylo napětí větší!
+# ==========================================
+
+# SEM DOPLŇ SVŮJ KÓD:
