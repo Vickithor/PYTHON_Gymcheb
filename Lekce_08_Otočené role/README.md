@@ -34,4 +34,4 @@ Napište kód: Vše tvořte v souboru s koncovkou .py (např. muj_projekt.py).
 
 Aktualizujte README: Nezapomeňte dopsat své info o projektu sem do tohoto souboru.
 
-Uložte na GitHub, dle README ulož na GitHub: Jakmile budete hotovi, nezapomeňte na Commit (s popisem, co jste udělali) a Push.
+Uložte na GitHub, dle README Práce s GitHubem: Jakmile budete hotovi, nezapomeňte na Commit (s popisem, co jste udělali) a Push.
