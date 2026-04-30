@@ -24,7 +24,6 @@ display.scroll("AHOJ")
 display.clear()
 ```
 
-
 ### 3. Tlačítka (Vstupy od uživatele)
 ```# Zjištění, zda je tlačítko A právě teď stisknuté
 if button_a.is_pressed():
@@ -78,11 +77,19 @@ while True:
 ---------------------------------------------------------------------------------------------------------------------------------
 
 ### Rychlý tahák základních příkazů
+
 Start programu	`from microbit import *`
+
 Nekonečná smyčka	`while True:`
+
 Obrázek na displeji	`display.show(Image.HAPPY)`
+
 Běžící text	`display.scroll("Text")`
+
 Stisk tlačítka A	`if button_a.is_pressed():`
+
 Zatřesení	`if accelerometer.was_gesture("shake"):`
+
 Teplota	`teplota = temperature()`
+
 Přehrání hudby	`music.play(music.ENTERTAINER) (vyžaduje import music)`
