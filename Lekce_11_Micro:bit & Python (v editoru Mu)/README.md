@@ -37,14 +37,29 @@ if button_b.was_pressed():
 
 ### 4. Akcelerometr (Pohyb a třesení)
 ```
+# Pokud uživatel deskou zatřese
+if accelerometer.was_gesture("shake"):
+    # udělej něco
 
+# Další gesta: "up", "down", "left", "right", "face up", "freefall"
+```
 
 ### 5. Teploměr (Měření prostředí)
-
+```
+# Přečte teplotu v celých stupních Celsia a uloží ji do proměnné
+aktualni_teplota = temperature()
+```
 
 ### 6. Zvuk (Pípání a melodie)
 **Pozor:** Pro zvuk je nutné na úplný začátek programu přidat import music.
+```
+# Přehrání přednastavené melodie
+music.play(music.BA_DING)
+music.play(music.NYAN)
 
+# Zahrání jednoho konkrétního tónu (např. tón A4) po dobu 500 milisekund
+music.pitch(440, 500)
+```
 <br>
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -58,4 +73,16 @@ from microbit import *
 
 while True:
     # Zde se píše kód, který běží neustále dokola (kontrola tlačítek, teploty...)
-    ```
+```
+<br>
+---------------------------------------------------------------------------------------------------------------------------------
+
+### Rychlý tahák základních příkazů
+Start programu	`from microbit import *`
+Nekonečná smyčka	`while True:`
+Obrázek na displeji	`display.show(Image.HAPPY)`
+Běžící text	`display.scroll("Text")`
+Stisk tlačítka A	`if button_a.is_pressed():`
+Zatřesení	`if accelerometer.was_gesture("shake"):`
+Teplota	`teplota = temperature()`
+Přehrání hudby	`music.play(music.ENTERTAINER) (vyžaduje import music)`
